@@ -12,7 +12,7 @@ class Sprint(models.Model):
     def __str__(self):
         return self.name or _('Sprint ending %s') % self.end
 
-class Tak(models.Model):
+class Task(models.Model):
     """Unit of work to be done for the sprint."""
 
     STATUS_TODO = 1
