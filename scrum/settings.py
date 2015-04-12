@@ -56,8 +56,8 @@ WSGI_APPLICATION = 'scrum.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psyscopg2',
-        'NAME': 'scrum'),
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'scrum',
     }
 }
 
